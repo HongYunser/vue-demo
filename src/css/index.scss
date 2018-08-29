@@ -1,0 +1,55 @@
+body {
+    margin  : 0;
+    padding : 0;
+  }
+#app {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+} 
+  // 覆盖elementui组件默认样式
+.el-dialog__header {
+    letter-spacing: 1px;
+    background-color: #F2F2F2;
+    .el-dialog__title {
+      font-size: 16px;
+    }
+}
+  
+.el-tabs__active-bar {
+    background-color: #FF7200 !important;
+}
+  
+.el-tabs__item:hover {
+    color: #2d2f33 !important;
+}
+.is-active {
+    color: #2d2f33 !important;
+}
+  
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    html {
+      font-size : 13px;
+      body {
+        font-size : 13px;
+      }
+    }
+}
+  
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+    html {
+      font-size : 14px;
+      body {
+        font-size : 14px;
+      }
+    }
+}
+  
+@media screen and (min-width: 1921px) {
+    html {
+      font-size : 16px;
+      body {
+        font-size : 16px;
+      }
+    }
+}
